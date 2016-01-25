@@ -15,6 +15,7 @@
 		ABCCD55C1C55ACBA00033635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCCD55A1C55ACBA00033635 /* LaunchScreen.storyboard */; };
 		ABCCD5671C55ACBA00033635 /* DrawingApp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCCD5661C55ACBA00033635 /* DrawingApp1Tests.m */; };
 		ABCCD5721C55ACBA00033635 /* DrawingApp1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCCD5711C55ACBA00033635 /* DrawingApp1UITests.m */; };
+		ABCCD5811C55B3FA00033635 /* LineDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCCD5801C55B3FA00033635 /* LineDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ABCCD56D1C55ACBA00033635 /* DrawingApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCCD5711C55ACBA00033635 /* DrawingApp1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingApp1UITests.m; sourceTree = "<group>"; };
 		ABCCD5731C55ACBA00033635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCCD57F1C55B3FA00033635 /* LineDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineDrawingView.h; path = ../LineDrawingView.h; sourceTree = "<group>"; };
+		ABCCD5801C55B3FA00033635 /* LineDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineDrawingView.m; path = ../LineDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		ABCCD54B1C55ACBA00033635 /* DrawingApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				ABCCD57F1C55B3FA00033635 /* LineDrawingView.h */,
+				ABCCD5801C55B3FA00033635 /* LineDrawingView.m */,
 				ABCCD54F1C55ACBA00033635 /* AppDelegate.h */,
 				ABCCD5501C55ACBA00033635 /* AppDelegate.m */,
 				ABCCD5521C55ACBA00033635 /* ViewController.h */,
@@ -276,6 +281,7 @@
 				ABCCD5541C55ACBA00033635 /* ViewController.m in Sources */,
 				ABCCD5511C55ACBA00033635 /* AppDelegate.m in Sources */,
 				ABCCD54E1C55ACBA00033635 /* main.m in Sources */,
+				ABCCD5811C55B3FA00033635 /* LineDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    
+    drawScreen=[[LineDrawingView alloc]initWithFrame:CGRectMake(0, 45, 768, 1004)];
+    [drawScreen setBackgroundColor:[UIColor whiteColor]];
+    [self.view addSubview:drawScreen];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LineDrawingView.h
 //  DrawingApp1
 //
 //  Created by Kerry Toonen on 2016-01-24.
@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LineDrawingView.h"
 
-@interface ViewController : UIViewController {
+@interface LineDrawingView : UIView {
     
-    LineDrawingView *drawScreen;
+    NSMutableArray *pathArray;
+    UIBezierPath *myPath;
 }
 
-
 @end
-
